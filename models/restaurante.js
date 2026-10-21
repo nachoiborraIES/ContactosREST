@@ -24,6 +24,6 @@ let restauranteSchema = new mongoose.Schema({
 });
 
 // Modelo
-let Restaurante = mongoose.model('restaurante', restauranteSchema);
+let Restaurante = mongoose.model('restaurantes', restauranteSchema);
 
 module.exports = Restaurante;

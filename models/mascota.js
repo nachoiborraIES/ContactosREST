@@ -16,6 +16,6 @@ let mascotaSchema = new mongoose.Schema({
 });
 
 // Modelo
-let Mascota = mongoose.model('mascota', mascotaSchema);
+let Mascota = mongoose.model('mascotas', mascotaSchema);
 
 module.exports = Mascota;
